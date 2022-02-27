@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing import image
 
 
 app=Flask(__name__)
-model=load_model(r'../model/model.h5')
+model=load_model(r'/model.h5')
 
 @app.route("/") 
 def about():
